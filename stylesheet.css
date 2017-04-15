@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+.blokje{
+  height:200px;
+  width:30px;
+}
+
+#player1{
+  position:absolute;
+  top: 0px;
+  left: 100px;
+  background-color:black;
+}
+
+#player2{
+  position:absolute;
+  background-color:red;
+  top:0px;
+  right: 100px;
+}
+#PlayerField{
+  position: absolute;
+  height: 800px;
+  width:1400px;
+  background-color: grey;
+}
+#ball{
+  position:absolute;
+  left: 700px;
+  top:340px;
+
+ }
+
+#scorePlayer2{
+  position: absolute;
+  left:300px;
+}
+
+#scorePlayer1{
+  position:absolute;
+  left:1000px;
+}
+
+#Player1ControlsTekst{
+position:absolute;
+top: 800px;
+font-family: 'Baloo Bhaina', cursive;
+}
+
+#Player2ControlsTekst{
+  position:absolute;
+  top: 800px;
+  left: 900px;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+h1{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 50px;
+}
